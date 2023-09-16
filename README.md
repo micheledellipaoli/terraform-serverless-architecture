@@ -396,10 +396,3 @@ Invoke-RestMethod -Method Delete -Uri "[API-Gateway-URL]/prod/item?item_id=[VALU
 
 ```
 
-Invoke-RestMethod -Method Post -Uri "https://rojnenwf9i.execute-api.eu-west-1.amazonaws.com/prod/item" -Headers @{"Content-Type"="application/json"} -Body '{"item_id":"2","item_name":"Birra Heineken","item_category":"Bevande","item_price":3}'
-
-Invoke-RestMethod -Method Get -Uri "https://rojnenwf9i.execute-api.eu-west-1.amazonaws.com/prod/item" -Headers @{"Content-Type"="application/json"}
-
-Invoke-RestMethod -Method Put -Uri "https://rojnenwf9i.execute-api.eu-west-1.amazonaws.com/prod/item" -Headers @{"Content-Type"="application/json"} -Body '{"item_id":"2","item_name":"Birra Peroni","item_category":"Bevande","item_price":4}'
-
-Invoke-RestMethod -Method Delete -Uri "https://rojnenwf9i.execute-api.eu-west-1.amazonaws.com/prod/item?item_id=2" -Headers @{"Content-Type"="application/json"}
