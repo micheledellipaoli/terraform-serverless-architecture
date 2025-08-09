@@ -1,3 +1,6 @@
+# Serverless architecture managed in Terraform
+This project is made of a Terraform configuration for deploying a serverless architecture on AWS using API Gateway, Lambda, DynamoDB.
+
 # Table of contents
 1. [Introduction to a Microservices architecture](#introduction)
     1. [User Interface](#user-interface)
